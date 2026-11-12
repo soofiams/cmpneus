@@ -1,0 +1,5 @@
+# Impedir execução de scripts nas imagens enviadas
+<FilesMatch "\.(php|phtml|php\d|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

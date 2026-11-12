@@ -1,0 +1,11 @@
+# Dados privados — nunca enviar para o GitHub
+config.php
+
+# Imagens enviadas no backoffice
+uploads/promos/*
+!uploads/promos/.gitkeep
+
+# Ficheiros do Mac e de trabalho
+.DS_Store
+Claude outputs/
+*.novo

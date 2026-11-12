@@ -1,0 +1,5 @@
+# Bloquear acesso direto a ficheiros internos
+<FilesMatch "^(config\.php|config\.sample\.php|install\.sql|README\.md)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
